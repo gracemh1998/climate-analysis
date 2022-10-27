@@ -19,7 +19,7 @@ for line in climate_data:
     else:
         # extract our max temperature in Fahrenheit - 4th column
         fahr = float(data[3])
-
+TODO(grace-hayes): Add call to process rainfall
         # don't process invalid temperature readings of -9999
         if fahr != -9999:
             celsius = temp_conversion.fahr_to_celsius(fahr)
